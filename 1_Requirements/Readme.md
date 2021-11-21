@@ -26,6 +26,12 @@ here you can see many options to add and delete the recored keep data easly and 
 **when :**
 when you need this applicaition can you use and store the records for most usefull for the if address and personle details will also we keep here.
 
+**How :**
+ --  
+ > address book is a application how its works user can add and delete and modify records of address and information using application and its simple structure and very easy useble.
+
+
+
 ## Details AdressBook 
 **High Level Requirement :**
 - system capacity  windows 32 and windows 64 
