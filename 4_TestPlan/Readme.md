@@ -3,9 +3,9 @@
 # Table no: High level test plan :
 | Test ID | Description | Exp I/P | Exp O/P | Actual Out | Type Of Test |
 | ------ | ------ | --------- | ---------- | ---------- | ------------- |
-| H_01 | test name and address | vishwa, hutti |vishwa,hutti | vishwa hutti | Pass
-| H_02 | test name and address | vincent , belagavi | vincent , belagavi | vincent belagavi | pass
-| H_03 | test name and address | Ramesh , bangalore | Ramesh , bangalore | Ramesh bangalore | Pass
+| H_01 | test name and phone_numbers | vishwa, 9481835555 |vishwa, 9481835555 | vishwa, 9481835555 | Pass
+| H_02 | test name and phone_numbers | vincent , 9292929222 |vincent , 9292929222  | vincent , 9292929222 | pass
+| H_03 | test name and phone_numbers | vishwa , 9292929292 | vishwa , 9292929292 |  vishwa , 9292929292  | Pass
 
 
 # Table no: Low level test plan :

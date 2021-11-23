@@ -11,7 +11,7 @@ void tearDown()
 
 void test_addrecords(void)
 {
-    char name = "vishwa", PHONE_NUMBER_COUNT = "9292929292";
+    char name = "vishwa", PHONE_NUMBER_COUNT = "9481835555";
     TEST_ASSERT_EQUAL("hutti", addrecords(name, PHONE_NUMBER_COUNT));
 }
 void test_modifyrecods(void)
