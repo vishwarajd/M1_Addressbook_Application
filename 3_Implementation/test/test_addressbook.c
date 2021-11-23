@@ -1,29 +1,28 @@
 #include "unity.h"
-#include "addressbook.h"
+#include "address_book.h"
 
-/* Required by the unity test framework */
 void setUp()
 {
 }
-/* Required by the unity test framework */
+
 void tearDown()
 {
 }
 
 void test_addrecords(void)
 {
-    char name = "vishwa", address = "hutti";
-    TEST_ASSERT_EQUAL("hutti", addrecords(name, address));
+    char name = "vishwa", PHONE_NUMBER_COUNT = "9292929292";
+    TEST_ASSERT_EQUAL("hutti", addrecords(name, PHONE_NUMBER_COUNT));
 }
 void test_modifyrecods(void)
 {
-    char name = "vincent", address = "belgavi";
-    TEST_ASSERT_EQUAL("hutti", modifyrecords(name, address));
+    char name = "vincent", PHONE_NUMBER_COUNT = "9292929222";
+    TEST_ASSERT_EQUAL("hutti", modifyrecords(name, PHONE_NUMBER_COUNT));
 }
 void test_deleterecords(void)
 {
-    char name = "vishwa", address = "hutti";
-    TEST_ASSERT_EQUAL("hutti", test_deleterecords(name, address));
+    char name = "vishwa", PHONE_NUMBER_COUNT = "9292929292";
+    TEST_ASSERT_EQUAL("hutti", test_deleterecords(name, PHONE_NUMBER_COUNT));
 }
 
 
