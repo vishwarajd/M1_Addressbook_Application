@@ -91,3 +91,13 @@ when you need this applicaition can you use and store the records for most usefu
 ![LowlevelStructure drawio](https://user-images.githubusercontent.com/59121980/143399266-70278dd3-d0d2-4958-b27e-127fb95f46cb.png)
 
 
+## Implementation
+
+# Folder Structure 
+
+| Folder | Description |
+| ------ | ------ | 
+| inc | All Header File  | 
+| src | Main source code for Addressbook |
+| test | All source code and data for testing purposes  |
+| build | Build output (Not included in git) |
